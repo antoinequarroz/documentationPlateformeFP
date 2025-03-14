@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr-EU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>Doc Plateforme FP</title><meta name="description" content="Documentation de la plateforme FP">
+    <link rel="preload" href="/assets/style-CQp7YV5d.css" as="style"><link rel="stylesheet" href="/assets/style-CQp7YV5d.css">
+    <link rel="modulepreload" href="/assets/app-BsidyaS6.js"><link rel="modulepreload" href="/assets/404.html-ccg1o7hc.js">
+    <link rel="prefetch" href="/assets/index.html-B8X-FsSW.js" as="script"><link rel="prefetch" href="/assets/architecture.html-B_C0ERJn.js" as="script"><link rel="prefetch" href="/assets/backend.html-I3NVQRjk.js" as="script"><link rel="prefetch" href="/assets/conclusion.html-DUvvQCLb.js" as="script"><link rel="prefetch" href="/assets/contribution.html-Dy6Esekp.js" as="script"><link rel="prefetch" href="/assets/errors.html-DM5kj7h4.js" as="script"><link rel="prefetch" href="/assets/frontend.html-CgCqKo8M.js" as="script"><link rel="prefetch" href="/assets/gestionprojet.html-BL2kRpag.js" as="script"><link rel="prefetch" href="/assets/github.html-BPKA20u_.js" as="script"><link rel="prefetch" href="/assets/introduction.html-CrBlvw5c.js" as="script"><link rel="prefetch" href="/assets/setupDevtools-QXEOFQJV-JOZW7n77.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-ec9917b8><main class="page" data-v-ec9917b8><div vp-content data-v-ec9917b8><h1 data-v-ec9917b8>404</h1><blockquote data-v-ec9917b8>How did we get here?</blockquote><a class="route-link" href="/" data-v-ec9917b8>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-BsidyaS6.js" defer></script>
+  </body>
+</html>
